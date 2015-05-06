@@ -1,9 +1,5 @@
-#HMIS demo unitest
 import unittest
-#Returns the characters of 'string1' not included in 'string2'
-def characters_not_included(p1, p2):
-    return "".join(set(p1).difference(set(p2)))
-
+from example import *
 
 class DemoClassTest(unittest.TestCase):
 
